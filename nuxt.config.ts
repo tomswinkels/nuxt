@@ -1,4 +1,12 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+// ./nuxt.config.ts
+
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  modules: ['@nuxtjs/apollo'],
+  apollo: {
+    clients: {
+      prepr: './apollo/prepr.ts',
+    },
+  },
 })
