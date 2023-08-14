@@ -8,5 +8,5 @@ export default defineNuxtConfig({
     clients: {
       prepr: './apollo/prepr.ts',
     },
-  },
+  }
 })
