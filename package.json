@@ -9,7 +9,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
     "@apollo/client": "3.7.14",
     "@nuxtjs/apollo": "^5.0.0-alpha.6",
     "@types/node": "^18.17.3",
